@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Theme.Light_orange" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_light_orange</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Light_orange</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Light_orange</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Light_orange</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Light_orange</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Light_orange</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_light_orange</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_light_orange</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Light_orange</item>
+        
+                <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Light_orange.Widget</item>
+
+    </style>
+
+    <style name="ActionBar.Solid.Light_orange" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_light_orange</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_light_orange</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_light_orange</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Light_orange</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Light_orange" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_light_orange</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Light_orange</item>
+    </style>
+
+    <style name="PopupMenu.Light_orange" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_light_orange</item>
+    </style>
+
+    <style name="DropDownListView.Light_orange" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_light_orange</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Light_orange" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_light_orange</item>
+    </style>
+
+    <style name="DropDownNav.Light_orange" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_light_orange</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_light_orange</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_light_orange</item>
+    </style>
+    
+    <style name="ProgressBar.Light_orange" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_light_orange</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Light_orange" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_light_orange</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Light_orange.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Light_orange</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Light_orange</item>
+    </style>
+
+
+</resources>

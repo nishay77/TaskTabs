@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/add_category_menu"
+        android:title="Add Tab"
+        android:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/remove_tab"
+        android:title="Remove Tab"
+        android:showAsAction="ifRoom" />
+    
+</menu>
