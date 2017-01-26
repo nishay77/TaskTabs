@@ -1,0 +1,6 @@
+CHANGED,C:\Users\Nishay\Dropbox\Other\Android Projects\Projects\TaskTabs\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\nishay\tasktabs\TaskFragmentFactory$4$override.class
+CHANGED,C:\Users\Nishay\Dropbox\Other\Android Projects\Projects\TaskTabs\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\nishay\tasktabs\TaskFragmentFactory$override.class
+CHANGED,C:\Users\Nishay\Dropbox\Other\Android Projects\Projects\TaskTabs\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\nishay\tasktabs\TaskFragmentFactory$3$override.class
+CHANGED,C:\Users\Nishay\Dropbox\Other\Android Projects\Projects\TaskTabs\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\nishay\tasktabs\TaskFragmentFactory$5$override.class
+CHANGED,C:\Users\Nishay\Dropbox\Other\Android Projects\Projects\TaskTabs\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\nishay\tasktabs\TaskFragmentFactory$2$override.class
+CHANGED,C:\Users\Nishay\Dropbox\Other\Android Projects\Projects\TaskTabs\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

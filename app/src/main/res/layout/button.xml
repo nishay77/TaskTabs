@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_layout"
+                android:gravity="center_vertical"
+                android:padding="6dp"
+                android:background="#555555">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/button_image"
+        android:src="@drawable/add"/>
+
+    <TextView
+        android:id="@+id/button_add_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textSize="10sp"
+        android:layout_below="@+id/button_image"
+        android:layout_alignRight="@+id/button_image"
+        android:layout_alignEnd="@+id/button_image"
+        android:layout_alignLeft="@+id/button_image"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/button_import_icon"
+        android:src="@drawable/importicon"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/button_import_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMPORT RECIPE"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/button_import_icon"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/button_clear"
+        android:src="@drawable/clear"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/button_clear_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_alignRight="@+id/button_clear"
+        android:layout_alignEnd="@+id/button_clear"
+        android:layout_below="@+id/button_clear" />
+
+</RelativeLayout>
